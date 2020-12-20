@@ -129,7 +129,7 @@ Alle Platzhalter finden Sie in der Datei templates/default/ratings/rating.html
 <table width="100%"><tr class="news_footer">
 <td nowrap="nowrap">
 {if MODULE_RATINGS}
-	{if DISPLAY_RATING}{include ../ratings/rating.html}{/if}
+	{if DISPLAY_RATING}{includemoduletemplate RATINGS rating.html}{/if}
 {/if}
 </td>
 <td width="100%" align="right">
@@ -148,5 +148,5 @@ Alle Platzhalter finden Sie in der Datei templates/default/ratings/rating.html
 {/if}
 
 {if MODULE_COMMENTS}
-	{if DISPLAY_COMMENTS}<br />&nbsp;{include ../comments/comments.html}{/if}
+	{if DISPLAY_COMMENTS}<br />&nbsp;{includemoduletemplate COMMENTS comments.html}{/if}
 {/if}

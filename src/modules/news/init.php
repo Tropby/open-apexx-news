@@ -21,7 +21,7 @@ if ( !defined('APXRUN') ) die('You are not allowed to execute this file directly
 $module = array(1,100,
 'id' => 'news',
 'dependence' => array('comments','ratings','gallery'),
-'requirement' => array('main' => '1.2.0'),
+'requirement' => array('main' => '1.4.0'),
 'version' => '1.1.1',
 'author' => 'Christian Scheb',
 'contact' => 'http://www.stylemotion.de',
