@@ -22,9 +22,9 @@ $module = array(1,100,
 'id' => 'news',
 'dependence' => array('comments','ratings','gallery'),
 'requirement' => array('main' => '1.4.0'),
-'version' => '1.1.1',
-'author' => 'Christian Scheb',
-'contact' => 'http://www.stylemotion.de',
+'version' => '1.2.0',
+'author' => 'Christian Scheb, Carsten Grings',
+'contact' => 'http://www.stylemotion.de, https://grings-software.de',
 'mediainput' => array(
 	1 =>	array(
 				'icon' => '<img src="design/mm/insert_img.gif" alt="{MM_INSERTNEWSPIC}" title="{MM_INSERTNEWSPIC}" style="vertical-align:middle;" />',
